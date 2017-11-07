@@ -3,7 +3,7 @@ services:
   grafana:
     image: grafana/grafana:4.5.2
     ports:
-      - "6666:3000"
+      - "3333:3000"
 
   prom:
     image: prom/prometheus
